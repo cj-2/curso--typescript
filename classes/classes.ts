@@ -91,7 +91,7 @@ console.log(carroNovo);
 // console.log(carroNovo.acelerar(), carroNovo.frear());
 
 class Ferrari extends Carro {
-  pro acelerar(): number {
+  public acelerar(): number {
     return this.alterarVelocidade(20);
   }
 
