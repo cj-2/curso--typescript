@@ -27,8 +27,7 @@ console.log(casamento)
 
 class DataEsperta {
   constructor(
-    // É possível setar os atributos pelo constructor.
-    public dia: number = 1, // Apenas adicionando a vizibildiade.
+    public dia: number = 1,
     public mes: number = 1,
     public ano: number = 1970
   ) {}
